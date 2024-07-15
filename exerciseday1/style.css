@@ -1,0 +1,114 @@
+body{
+    font-family:'Inter', sans-serif ;
+    background-color: #d4caca;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 65%;
+    background-color: #f2f2f2;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+.card1-judul{
+    display: flex;
+    justify-content: center;
+}
+.card1-p{
+    margin: auto;
+    text-align: justify;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.button {
+    background-color: #555555;
+    display: flex;
+    margin-left: 30%;
+    flex-direction: column;
+    font-size: 10px;
+    padding: 10px 20px;
+    max-width: 100px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    transition-duration: 0.2s;
+  }
+.a{
+    text-decoration: none;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    margin-left: 30%;
+    padding:10px;
+    display: flex;
+    max-width: 30px;
+}
+.a1 img{
+    margin-left: 6px;
+}
+.container2{
+    margin-top: 25px;
+    display: flex;
+}
+.sosialContainer{
+    width: 100%;
+    padding: 40px 20px 20px;
+}
+.sosialIcon{
+    
+    display: flex;
+    justify-content: center;
+}
+.sosialIcon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(58, 54, 54);
+    margin: 10px; 
+    border-radius: 50%;
+}
+.sosialIcon a i{
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 55%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.card-img{
+    padding-bottom: 20%;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+.card-body{
+    padding:10px 30px 70px;
+}
+/* .container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+} */
+
